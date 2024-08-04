@@ -1,0 +1,228 @@
+/* ここから下に記載していく */
+.wrap {
+    width: 1200px;
+    font-family: "メイリオ" "seigo UI";
+    }
+/* サイト全体幅 1200pxで作成する */
+/* 本文 16px */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    height: 121px;
+  } 
+ 
+  /* 画像系の設定 */
+
+  .header-image {
+    padding: 20px;
+  }
+  
+.about_images {
+    padding-top: 40px;
+}
+
+/* テキスト系の設定 */
+
+.menu{
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    gap: 50px;
+    font-size: 21px;
+  }
+
+  .mainvisual {
+    position: relative;
+  }
+img {
+    width: 100%;
+}
+
+.mainvisual p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .mainvisual .main-lead {
+    font-size: 48px;
+    color: white;
+    top: 190px;
+    white-space: nowrap;
+  }
+
+  .mainvisual .sub-lead {
+    font-size: 32px;
+    color: white;
+    top: 268px;
+    white-space: nowrap;
+  }
+
+  .en-title {
+    color: #ffd61a;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .jp-title {
+    font-size: 18px;
+    padding-bottom: 60px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .space {
+    font-size: 16px;
+    line-height: normal;
+    padding-bottom: 40px;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+  .course-explain {
+    background-color: #fafafa;
+   }
+
+   /* Course 1 */
+  .explain-1 {
+    display: flex;
+  }
+ .explain-1-child {
+    width: 100%;
+ }
+ .explain-1-child-text-main {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 120px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+ }
+ .explain-1-child-text {
+    font-size: 16px;
+    line-height: normal;
+    padding-left: 50px;
+ }
+
+ /* Course 2 */
+ .explain-2 {
+    display: flex;
+  }
+ .explain-2-child {
+    width: 100%;
+ }
+ .explain-2-child-text-main {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 120px;
+    padding-left: 120px;
+    padding-bottom: 40px;
+ }
+ .explain-2-child-text {
+    font-size: 16px;
+    line-height: normal;
+    padding-left: 120px;
+ }
+
+ /* Course 3 */
+ .explain-3 {
+    display: flex;
+  }
+ .explain-3-child {
+    width: 100%;
+ }
+ .explain-3-child-text-main {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 120px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+ }
+ .explain-3-child-text {
+    font-size: 16px;
+    line-height: normal;
+    padding-left: 50px;
+ }
+
+ /* NEWS */
+ .news-f-container {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap; 
+    justify-content: center;
+ }
+ .news-f-item {
+    width: 300px;
+    margin: 0px 15px 30px 15px
+ }
+.news-f-item-text {
+    font-size: 14px;
+    margin: 0px 0px 24px 0px;
+    white-space: nowrap;
+}
+
+ /* ボタン */
+  .more {
+    display: grid;
+	align-content: center;
+	justify-content: center; 
+        background-color: #ffd61a;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 21px;
+    margin: 36px 450px 60px 450px;
+}
+
+  .access {
+    background-color: #fafafa;
+    padding-bottom: 30px;
+  }
+  
+  
+  .iframe {
+    padding-bottom: 60px;
+  }
+
+  .access-items{
+    padding-bottom: 30px;
+    text-align: left;
+  }
+
+  .form {
+    padding-top: 30px;
+    padding-left: 280px;
+    white-space: nowrap;
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .form .div {
+    padding: 8px;
+  }
+
+  .soushin {
+    display: grid;
+	align-content: center;
+	justify-content: center; 
+        background-color: #ffd61a;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 21px;
+    margin: 30px 450px 140px 450px;
+}
+
+  #footer {
+    padding: 30px;
+    background-color: #707070;
+    text-align: center;
+    color: white;
+  }
+
+  
